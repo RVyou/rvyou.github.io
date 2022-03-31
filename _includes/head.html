@@ -5,7 +5,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
   <!-- Allow having a localized datetime different from the appearance language -->
   {% if site.prefer_datetime_locale %}
     <meta name="prefer-datetime-locale" content="{{ site.prefer_datetime_locale }}">
@@ -90,7 +91,7 @@
   {% endif %}
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="{{ site.data.assets[origin].bootstrap.css }}">
+  <link rel="stylesheet" href="{{ site.data.assets[origin].bootstrap.css }}?{{ site.time | date:'%Y%m%d%U%H%N%S' }}">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ site.data.assets[origin].fontawesome.css }}">
