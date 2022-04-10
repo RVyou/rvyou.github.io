@@ -28,11 +28,11 @@ Rust 生命周期消除规则：
 >   ```rust
 >   impl<'a> test<'a>{
 >       fn foo<'b>(&'a self,s:&'b str)->&'a str{
->       }
+>   }
 >   }//等价与下面函数
 >   impl test{
 >       fn foo(& self,s:& str)->& str{
->       }
+>       }
 >   }
 >   ```
 
