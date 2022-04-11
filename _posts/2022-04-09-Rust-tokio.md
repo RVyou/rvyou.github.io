@@ -1,7 +1,7 @@
 ---
 title: Rust async/await
 author: rvyou
-date: 2022-04-10 16:23:10
+date: 2022-04-09 16:23:10 +0800
 categories: [Rust,异步并发,async/await,(1)]
 tags: [Rust,异步并发,async/await]
 ---
