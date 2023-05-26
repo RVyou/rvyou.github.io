@@ -2,7 +2,7 @@
 title: Windows 11 和 WSL2 安装 CUDA cuDNN OpenCV
 author: rvyou
 date: 2023-05-26 17:32:50+08:00
-categories: [AI]
+categories: [AI,install]
 tags: [AI,WSL2,Windows,CUDA,cuDNN,OpenCV]
 ---
 
