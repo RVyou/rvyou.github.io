@@ -10,7 +10,7 @@ tags: [AI,WSL2,Windows,CUDA,cuDNN,OpenCV]
 
 ### 安装 CUDA
 
-[CUDA Toolkit Archive | NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive)
+[CUDA Toolkit Archive  NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive)
 
  我这里下载 cudn 12
 
@@ -22,7 +22,7 @@ ps: c c++ windows
 
 ### 安装 cuDNN
 
-[cuDNN Archive | NVIDIA Developer](https://developer.nvidia.com/rdp/cudnn-archive)
+[cuDNN Archive  NVIDIA Developer](https://developer.nvidia.com/rdp/cudnn-archive)
 
 ### 环境变量配置
 
@@ -33,13 +33,13 @@ CUDA_PATH_V12_1 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1
 
 ### 下载 zlibwapi.dll
 
-[Installation Guide - NVIDIA Docs](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-zlib-windows)
+[Installation Guide NVIDIA Docs](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-zlib-windows)
 
 放到c:\windows\system32下面
 
 ### 安装 CMake
 
-[Download | CMake](https://cmake.org/download/)
+[Download  CMake](https://cmake.org/download/)
 
 这里安装是 3.26
 

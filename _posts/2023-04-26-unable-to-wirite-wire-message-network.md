@@ -16,9 +16,9 @@ tags: [kubernetes,Istio,Envoy,mongoDB,network]
 
 查看 mongoDB 当期连接，多出复数连接数，连接程序未知。连接隔一段时间会被 close 掉。
 
-![Desktop View](/posts/20190808/mockup.png){: width="780" height="229" } _额外的连接_
+![Desktop View](assets/img/k8s1.png){: width="780" height="229" } _额外的连接_
 
-![Desktop View](/posts/20190808/mockup.png){: width="977" height="322" } _连接隔一段时间会被 close 掉_
+![Desktop View](assets/img/k8s2.png){: width="977" height="322" } _连接隔一段时间会被 close 掉_
 
 通过看客户端配置连接池是没有设置关闭时间的，怎么会被关闭呢，而且源码里面这种连接也没有心跳维持。
 
