@@ -6,7 +6,7 @@ categories: [Rust,std,string]
 tags: [Rust,std,string]
 ---
 
-### use std :: string :: String
+## use std :: string :: String
 
 - *with_capacity(capacity: usize) -> String  创建一个指定容量的string
 
@@ -64,7 +64,7 @@ tags: [Rust,std,string]
 
 - into_boxed_str(self) -> Box<str, Global>  字符串装箱
 
-### str(部分 有些重复的就不写了)
+## str(部分 有些重复的就不写了)
 
 - is_char_boundary(&self, index: usize) -> bool 检查指定字符是否符合UTF-8 code
 
