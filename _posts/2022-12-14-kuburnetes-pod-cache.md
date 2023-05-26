@@ -1,5 +1,5 @@
 ---
-title: 二分查找
+title: k8s pod OOM
 author: rvyou
 date: 2022-12-14 11:30:52
 categories: [kubernetes,excessive_memory_usage,golang]
