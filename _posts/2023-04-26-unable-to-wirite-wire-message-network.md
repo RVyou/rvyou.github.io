@@ -6,12 +6,12 @@ categories: [kubernetes,Istio,Envoy]
 tags: [kubernetes,Istio,Envoy,mongoDB,network]
 ---
 
-#### 起因
+### 起因
 
 最近频繁出现mongoDB 写已经关闭的管道 日志
 
 ```shell
-[ERROR] conection(1715277-12)unable to wirite wire message network: write tcp 10.311139:40938->17216.4875:27700:write broken pipe #### Deref 和 DerefMut trait
+[ERROR] conection(1715277-12)unable to wirite wire message network: write tcp 10.311139:40938->17216.4875:27700:write broken pipe ### Deref 和 DerefMut trait
 ```
 
 查看 mongoDB 当期连接，多出复数连接数，连接程序未知。连接隔一段时间会被 close 掉。
