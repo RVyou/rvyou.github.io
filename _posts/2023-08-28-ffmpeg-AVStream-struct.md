@@ -8,7 +8,7 @@ tags: [audio_and_video,ffmpeg,AVStream]
 ![Desktop View](assets/img/ffmpeg.png)
 AVStream 是 ffmpeg 用于描述多媒体流。
 
-#### AVStream
+## AVStream
 
 ```c
 typedef struct AVStream {

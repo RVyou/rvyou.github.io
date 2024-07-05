@@ -8,7 +8,7 @@ tags: [audio_and_video,ffmpeg,AVFormatContext]
 ![Desktop View](assets/img/ffmpeg.png)
 AVFormatContext 是 ffmpeg 比较核心的结构，贯彻处理核心内容，毕竟是上下文。
 
-#### AVFormatContext
+## AVFormatContext
 
 ```c
 typedef struct AVFormatContext {

@@ -8,7 +8,7 @@ tags: [audio_and_video,ffmpeg,AVCodec]
 ![Desktop View](assets/img/ffmpeg.png)
 AVCodec 是 ffmpeg 存储编解码器信息。
 
-#### AVCodec
+## AVCodec
 
 ```c
 typedef struct AVCodec {
