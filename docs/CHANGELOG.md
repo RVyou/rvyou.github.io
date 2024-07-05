@@ -1,9 +1,220 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [7.0.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.0.0...v7.0.1) (2024-05-18)
+
+### Bug Fixes
+
+* **analytics:** goatcounter pv greater than 1K cannot be converted to numbers ([#1762](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1762)) ([33a1fa7](https://github.com/cotes2020/jekyll-theme-chirpy/commit/33a1fa7cae2181625e2f335708d59de4dd20ee7d))
+* audio/video path apply variable `media_subpath` ([#1745](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1745)) ([00a27a1](https://github.com/cotes2020/jekyll-theme-chirpy/commit/00a27a1b85f665d0642b77babd54c6903fbdeb22))
+
+## [7.0.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.5.5...v7.0.0) (2024-05-11)
+
+### ⚠ BREAKING CHANGES
+
+* optimize the resource hints (#1717)
+* rename media-url file and related parameters (#1651)
+* rename comment setting parameter (#1563)
+* **analytics:** add post pageviews for GoatCounter (#1543)
+
+### Features
+
+* add cloudflare web analytics ([#1723](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1723)) ([c17fba4](https://github.com/cotes2020/jekyll-theme-chirpy/commit/c17fba44f53767c9dfaa8d92cfc6e275e5977f8a))
+* add support for embed video files ([#1558](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1558)) ([9592146](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9592146ca392236e69ee358412ecc32ef1662127))
+* add support for giscus strict title matching ([#1614](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1614)) ([700fd5b](https://github.com/cotes2020/jekyll-theme-chirpy/commit/700fd5bad7272dd950f861e8550215cd8fafb413))
+* **analytics:** add post pageviews for GoatCounter ([#1543](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1543)) ([b641b3f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b641b3f1f2e54bcfe96d8dff46d4f94186492d98))
+* **analytics:** add Umami and Matomo tracking codes ([#1658](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1658)) ([61bdca2](https://github.com/cotes2020/jekyll-theme-chirpy/commit/61bdca2db45179cd0d1b4b885a4c4864e3ffa3c1))
+* change site verification settings ([#1561](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1561)) ([e436387](https://github.com/cotes2020/jekyll-theme-chirpy/commit/e4363871b5be0608d2b92b8aff482825a8044c1b))
+* **deps:** move `MathJax` configuration to a separate file ([#1670](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1670)) ([44f552c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/44f552cbcee83d037de0e59496bf6bb19eea2691))
+* display theme version in footer ([#1611](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1611)) ([8349314](https://github.com/cotes2020/jekyll-theme-chirpy/commit/834931486dc3e5ed544ce4ff47cd1b2bc45f42fd))
+* **i18n:** allow `page.lang` to override `site.lang` ([#1586](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1586)) ([547b95c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/547b95cc7ae35018dadcc01b6eb1dc8c8943e67e))
+* make post description customizable ([#1602](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1602)) ([f865336](https://github.com/cotes2020/jekyll-theme-chirpy/commit/f865336c896e0db34edf8482a53e0e5d8f07ff95))
+* **media:** support audio and video tag with multi sources ([#1618](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1618)) ([23be416](https://github.com/cotes2020/jekyll-theme-chirpy/commit/23be4162b3f8598db14dc5b39726932ccf2cdc23))
+
+### Bug Fixes
+
+* make TOC title and entries visible at the same time ([#1711](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1711)) ([e0950fc](https://github.com/cotes2020/jekyll-theme-chirpy/commit/e0950fc973d029dc65d0bc1bd68f3d11242527c8))
+* mode toggle not outlined when receiving keyboard focus ([#1690](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1690)) ([cd37f63](https://github.com/cotes2020/jekyll-theme-chirpy/commit/cd37f63a0144e0499ea991d3309da064ad5eccea))
+* prevent footnote back arrow from becoming an emoji ([#1716](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1716)) ([8608147](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8608147fb5037804695d93496c62f96b9c41e9cd))
+* **pwa:** skip range requests in service worker ([#1672](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1672)) ([76d58fe](https://github.com/cotes2020/jekyll-theme-chirpy/commit/76d58fe0ffdc4bd1df35b60815e97560c3564700))
+* search result prompt is empty ([#1583](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1583)) ([8a2afae](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8a2afae6cab8fc9639be0a866b71699c8a80084c))
+* use `https` for Weibo sharing URL ([#1612](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1612)) ([8e5fbb7](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8e5fbb7a74d04a4b3cdde69bcc821f8ccd1a3bc0))
+
+### Improvements
+
+* improve \<hr> visibility in dark mode ([#1565](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1565)) ([4ddd5c4](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4ddd5c437046a1e70cf396113e2351c452a25493))
+* lean bootstrap javascript ([#1734](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1734)) ([ddb48ed](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ddb48eda52827aae16aff720212d7b6d2d8647f9))
+* rename comment setting parameter ([#1563](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1563)) ([f8390d4](https://github.com/cotes2020/jekyll-theme-chirpy/commit/f8390d4384600fb015728b1b186570fa58ca216f))
+* replace jQuery with Vanilla JS ([#1681](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1681)) ([fe7afa3](https://github.com/cotes2020/jekyll-theme-chirpy/commit/fe7afa379f0af0ca98a207f85bdc0fa98575b1ad))
+* simplify mode toggle script ([#1692](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1692)) ([d4a6d64](https://github.com/cotes2020/jekyll-theme-chirpy/commit/d4a6d640bd6d4ab185faf96c0255369a9903ee1d))
+* tree shaking Bootstrap CSS ([#1736](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1736)) ([363a3d9](https://github.com/cotes2020/jekyll-theme-chirpy/commit/363a3d936bbd688fa4f28527e85ef7dd3fe3a79b))
+
+### Changes
+
+* optimize the resource hints ([#1717](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1717)) ([dcb0add](https://github.com/cotes2020/jekyll-theme-chirpy/commit/dcb0add47bf1adf92215514f1ccfa4661d5215be))
+* rename media-url file and related parameters ([#1651](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1651)) ([9f8aeaa](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9f8aeaadbfef9967a9b0a9dd323d8bed46e14d9f))
+
+## [6.5.5](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.5.4...v6.5.5) (2024-03-23)
+
+### Bug Fixes
+
+* **post:** correct the image URLs ([#1627](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1627)) ([2d649aa](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2d649aae0e40a24db1ab0d46fa474294e96cb135))
+
+## [6.5.4](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.5.3...v6.5.4) (2024-03-22)
+
+### Bug Fixes
+
+* correct the attribute for the Twitter social image ([#1615](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1615)) ([cfe44f2](https://github.com/cotes2020/jekyll-theme-chirpy/commit/cfe44f204bcec8e05f498512ec50878e626a124f))
+* **seo:** correct social preview image path inside `<meta>` tag ([#1623](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1623)) ([74cf57a](https://github.com/cotes2020/jekyll-theme-chirpy/commit/74cf57aaacf6674057e6f33240a22f4888cfe88f))
+
+## [6.5.3](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.5.2...v6.5.3) (2024-03-07)
+
+### Changes
+
+* replace `polyfill.io` with `cdnjs` hosted link ([#1598](https://github.com/cotes2020/jekyll-theme-chirpy/pull/1598)) ([75a3d73](https://github.com/cotes2020/jekyll-theme-chirpy/commit/75a3d7399b257256a09d602cbe01062fe1cdf68d))
+
+## [6.5.2](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.5.1...v6.5.2) (2024-02-29)
+
+### Bug Fixes
+
+* correct the base URL parameter name ([#1576](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1576)) ([19d6baf](https://github.com/cotes2020/jekyll-theme-chirpy/commit/19d6bafbe1a60614e0d63b961bc73c342a9f6f33)), closes [#1553](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1553)
+
+## [6.5.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.5.0...v6.5.1) (2024-02-26)
+
+### Bug Fixes
+
+* correct the generation of relative resource paths ([#1553](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1553)) ([89b9625](https://github.com/cotes2020/jekyll-theme-chirpy/commit/89b962557a56ccc13eba3c9c20b4270ee9d30042))
+
+## [6.5.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.4.2...v6.5.0) (2024-02-14)
+
+### Features
+
+* add `pwa.cache.*` option to precisely control caching ([#1501](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1501)) ([1127c43](https://github.com/cotes2020/jekyll-theme-chirpy/commit/1127c43823aac4db7fd80d5bb706ae7b1e129dc6))
+* add analytics support for GoatCounter ([#1526](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1526)) ([90693ff](https://github.com/cotes2020/jekyll-theme-chirpy/commit/90693ff95e72ca4b5135a7b454a6ab521b995b3e))
+
+### Bug Fixes
+
+* correct the Twitter Card in social share preview ([#1498](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1498)) ([74f1662](https://github.com/cotes2020/jekyll-theme-chirpy/commit/74f16623c9c4877ef36ac52e8b69c19d1d9a82ba))
+* missing "/" at the end of URLs for categories and tags in breadcrumb ([#1495](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1495)) ([02e296e](https://github.com/cotes2020/jekyll-theme-chirpy/commit/02e296ed75b7906b2d112c67f9054f5d71919de9))
+
+### Improvements
+
+* allow no social links to be configured ([#1494](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1494)) ([4facf5b](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4facf5b390eeba612ca439f3354c5d2d881aac56))
+* allow TOC to start at heading 3 ([#1512](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1512)) ([bbbb66b](https://github.com/cotes2020/jekyll-theme-chirpy/commit/bbbb66b489a3bf2b878947336fe894e8ea2ae3f5))
+* enable equation numbering in MathJax ([#1520](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1520)) ([c13ec31](https://github.com/cotes2020/jekyll-theme-chirpy/commit/c13ec311636d5e057c6895e353e1c1a4e570f582))
+
+## [6.4.2](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.4.1...v6.4.2) (2024-01-13)
+
+### Bug Fixes
+
+* resume the `blockquote` display type ([#1480](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1480)) ([c7cfde0](https://github.com/cotes2020/jekyll-theme-chirpy/commit/c7cfde093020c73ca9a1b83437eb600379e05918)), closes [#1449](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1449)
+
+## [6.4.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.4.0...v6.4.1) (2024-01-10)
+
+### Bug Fixes
+
+* `og:image` URL is incorrect ([#1468](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1468)) ([b2d1cb6](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b2d1cb68db659270aac537d2aa8d4b806fa6991d)), closes [#1463](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1463)
+
+## [6.4.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.3.1...v6.4.0) (2024-01-10)
+
+### Features
+
+* add bilibili embed video support ([#1406](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1406)) ([4a2b89d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4a2b89d0b698d672486349131a89025fa47afcb6))
+* add site-wide social preview image settings ([#1463](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1463)) ([241bb4d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/241bb4df7878cff7f82014df660874a1dcddba76))
+
+### Bug Fixes
+
+*  image float breaks quotes and prompts ([#1449](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1449)) ([ea2d238](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ea2d238bd8adc018256862e05a5092311c87a671)), closes [#1441](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1441)
+* url-less authors should not have empty links ([#1410](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1410)) ([2a4fbf6](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2a4fbf6a7925da610a75c498116da7cf9ba857d7)), closes [#1403](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1403)
+
+### Improvements
+
+* include the latest posts in the "Recently Updated" list ([#1456](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1456)) ([82d8f2d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/82d8f2db984711f334f55b6af5098ec16770e824))
+
+## [6.3.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.3.0...v6.3.1) (2023-11-12)
+
+### Bug Fixes
+
+* **home:** responsive gap at the bottom of preview image ([1a977a8](https://github.com/cotes2020/jekyll-theme-chirpy/commit/1a977a87a0da1cff35d0896cf9265c31034841a6))
+
+## [6.3.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.2.3...v6.3.0) (2023-11-10)
+
+### Features
+
+* add Mastodon sharing link ([#1344](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1344)) ([2bf87e0](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2bf87e0de7928f325811e1bb96cfcaefdf6cf66a)), closes [#1324](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1324)
+
+### Bug Fixes
+
+* **home:** crop the preview image that doesn't match 1.91:1 ([#1325](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1325)) ([5810bcd](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5810bcd1d7b83e111017831fa82c368a6b15c7cd))
+* resume lazy loading for Twitch videos ([#1326](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1326)) ([9f174d9](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9f174d9088e5c83a5e0c4630336cea65e199c553)), closes [#1267](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1267)
+
+## [6.2.3](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.2.2...v6.2.3) (2023-10-10)
+
+### Bug Fixes
+
+* avoid `utterances` initialization failure  ([#1234](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1234)) ([b34661e](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b34661efd72e8697fd5b30ba7e55c86c7dd10338))
+* **home:** avoid LQIP dirty data passing to the next post ([#1278](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1278)) ([109725d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/109725d2dc56e329c60a876e9ce4094513fd36a5))
+* **posts:** code snippet clipboard tooltip missing title ([#1246](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1246)) ([726085c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/726085c6478e7a9dc2cc57189b2dcbc85d90f048))
+* **posts:** resume target highlighting for superscripts and footnotes ([#1253](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1253)) ([0465a98](https://github.com/cotes2020/jekyll-theme-chirpy/commit/0465a985dc5262fa2043540f4eddafa251f917a3))
+
+### Improvements
+
+* **comments:** lazy load `giscus` ([#1254](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1254)) ([e9c9206](https://github.com/cotes2020/jekyll-theme-chirpy/commit/e9c920641b9c97594fa078ea89747d77eb7e7493))
+* **core:** replace `lazysizes` with browser-level lazy loading ([#1267](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1267)) ([bf3a34d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/bf3a34d0544b49fcf40f57080c4d6b4ff44750c4))
+* **layout:** improve margins for tail block ([#1243](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1243)) ([13a3c3c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/13a3c3c906bb6c5a38314ea27b6cf3767df94b27))
+* **layout:** optimize the main block height calculation ([#1249](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1249)) ([73e171b](https://github.com/cotes2020/jekyll-theme-chirpy/commit/73e171b0fbce4a542e2141d7e2b1144450571ce1))
+* **pwa:** enhance cache privacy protection ([#1275](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1275)) ([2d56597](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2d56597571aaafa92251d192861ea69cce3e83d2))
+* **ui:** standardize metadata text styles ([#1295](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1295)) ([2574118](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2574118f40a956184705f87dea4d88e7c246a055))
+* **ux:** render background color before loading preview image ([#1298](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1298)) ([42bf39e](https://github.com/cotes2020/jekyll-theme-chirpy/commit/42bf39e21c9a497aecc3e9b4549e2fc3ba4a1e4a))
+
+## [6.2.2](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.2.1...v6.2.2) (2023-09-10)
+
+### Bug Fixes
+
+* **sidebar:** contact icons not stacking ([#1224](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1224)) ([273b389](https://github.com/cotes2020/jekyll-theme-chirpy/commit/273b389c512f13693ed6cdf57d256ac21deae97c))
+
+## [6.2.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.2.0...v6.2.1) (2023-09-10)
+
+### Bug Fixes
+
+* **pwa:** installation failure caused by outdated cache entries ([4da7406](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4da7406dfea112a4a2b1db5615ecf2672be6694f))
+
+## [6.2.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.1.0...v6.2.0) (2023-09-10)
+
+### Features
+
+* **layout:** center the footer ([41b8f9f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/41b8f9f519e5f5f69e9a123b38b06bade2271a82))
+* **posts:** render heading 4 in TOC ([#1023](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1023)) ([229c2a2](https://github.com/cotes2020/jekyll-theme-chirpy/commit/229c2a2e2b109fc2eca85be548f1dd97234e44c4))
+* **ui:** redesign the pagination button on home page ([62bcd60](https://github.com/cotes2020/jekyll-theme-chirpy/commit/62bcd601fcadc602c81672b1d4b937231396c3c0))
+* **ui:** update the twitter icon ([#1221](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1221)) ([aff7566](https://github.com/cotes2020/jekyll-theme-chirpy/commit/aff75667749769644f990d3dc9b0720c7d96d14d))
+
+### Improvements
+
+* **core:** speed up the Jekyll build times ([#1163](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1163)) ([0d4103d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/0d4103d47bc9cff93918bb09a2957737cc3c9fe0))
+* refactor using semantic HTML ([#1207](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1207)) ([505e314](https://github.com/cotes2020/jekyll-theme-chirpy/commit/505e314a3142c332e39365fbe2dac23df1bf0abe)), closes [#1196](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1196)
+* **ui:** improve code snippet design ([4f86b04](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4f86b04a8487ebbf4a6d0d70b0c3ece79e9269f3))
+* **ui:** improve web accessibility ([#447](https://github.com/cotes2020/jekyll-theme-chirpy/issues/447)) ([37c9764](https://github.com/cotes2020/jekyll-theme-chirpy/commit/37c976499ead51c1d88e8e8213366240a72adebc))
+
+## [6.1.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.0.0...v6.1.0) (2023-07-02)
+
+### Features
+
+* **i18n:** add Thai locale file ([#1087](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1087)) ([a60e907](https://github.com/cotes2020/jekyll-theme-chirpy/commit/a60e90791d24811caff78e21c71dc85d6a729438))
+
+### Bug Fixes
+
+* missing xml escape for `alt` of preview image ([#1113](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1113)) ([8b0fbf5](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8b0fbf5a834276f273274e4d614edd71e339cbb0))
+* the cached image is covered by shimmer ([#1100](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1100)) ([df8ff54](https://github.com/cotes2020/jekyll-theme-chirpy/commit/df8ff546ec1c8d21a3d25e0124665001fcf756f3))
+* **ui:** min-height of `page` layout exceeds the mobile screen ([73af591](https://github.com/cotes2020/jekyll-theme-chirpy/commit/73af59194ab935d38b89d298fea0e96e13be7cb7))
+* **webfont:** resume semi-bold of font family `Source Sans Pro` ([c4da99c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/c4da99c7ea5d6e32b1f1b815d7d8d6ae7b0f55de))
+
+### Improvements
+
+* **build:** use `jekyll-include-cache` plugin to reduce build time ([#1098](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1098)) ([4fe145e](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4fe145e9809ee1b370d9891135939534751462d0)), closes [#1094](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1094)
+* CJK characters of the "Search Cancel" button will wrap ([#1105](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1105)) ([b6d1992](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b6d1992f85ec543220e826087dcc89870e7e2c00))
+* **ui:** avoid blank space at the bottom of the homepage preview image ([ce2f6f5](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ce2f6f5abef7a8b874e08d1f18c1fd002650dbf1))
+* **ui:** improve hover color of sidebar nav items in light mode ([728094d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/728094d1ba67a1e7c0a11e1c6c69bf87af9a767b))
 
 ## [6.0.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v6.0.0...v6.0.1) (2023-05-19)
-
 
 ### Bug Fixes
 
@@ -13,7 +224,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **typography:** long string for update-list is not truncated ([#1050](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1050)) ([a51d31c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/a51d31c55a37fbe034f0b0f699f4df0b6a14ba8f)), closes [#1049](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1049)
 
 ## [6.0.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.6.1...v6.0.0) (2023-05-16)
-
 
 ### ⚠ BREAKING CHANGES
 
@@ -32,17 +242,14 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui:** redesign the sidebar ([83bbe4a](https://github.com/cotes2020/jekyll-theme-chirpy/commit/83bbe4ac939edfd1706e68c080562e3462f83519))
 * **ui:** show preview image in home page ([97b8dfe](https://github.com/cotes2020/jekyll-theme-chirpy/commit/97b8dfeed6ce7677f6472e28dc3b03f3c2968b12))
 
-
 ### Bug Fixes
 
 * parameter parsing error in image URL ([#1022](https://github.com/cotes2020/jekyll-theme-chirpy/issues/1022)) ([ee88cec](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ee88cec270ea5938f98913a3edf28a684cfbd6c0))
 * **rss:** double quotes in the post title will break the XML structure ([#965](https://github.com/cotes2020/jekyll-theme-chirpy/issues/965)) ([1719d81](https://github.com/cotes2020/jekyll-theme-chirpy/commit/1719d81d00b32b107c35b3903089be84a9b28a6c))
 
-
 ### refactor
 
 * rename assets origin configuration files ([c283e77](https://github.com/cotes2020/jekyll-theme-chirpy/commit/c283e7782fa9562d82d9855fd280a573fd58c75f))
-
 
 ### Improvements
 
@@ -63,7 +270,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.6.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.6.0...v5.6.1) (2023-03-30)
 
-
 ### Bug Fixes
 
 * **deps:** `tocbot` has no initialization detection ([#957](https://github.com/cotes2020/jekyll-theme-chirpy/issues/957)) ([8225174](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8225174cb5e02fda7b3cc548ec821c876b0a5139))
@@ -72,13 +278,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.6.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.5.2...v5.6.0) (2023-03-17)
 
-
 ### Features
 
 * change TOC plugin to `tocbot` ([#774](https://github.com/cotes2020/jekyll-theme-chirpy/issues/774)) ([02b7bd5](https://github.com/cotes2020/jekyll-theme-chirpy/commit/02b7bd5095a2affe5b4c5ed7b5b182baaf642ff3))
 * **i18n:** add Greek Language Support. ([#903](https://github.com/cotes2020/jekyll-theme-chirpy/issues/903)) ([712a9b2](https://github.com/cotes2020/jekyll-theme-chirpy/commit/712a9b22401ce591cf4c0bb03fbdd1693fee30bb))
 * **ux:** turn home page posts into clickable cards ([#895](https://github.com/cotes2020/jekyll-theme-chirpy/issues/895)) ([b85f633](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b85f6330dea666350631c4461b742cdb54c5f052))
-
 
 ### Bug Fixes
 
@@ -89,13 +293,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.5.2](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.5.1...v5.5.2) (2023-01-30)
 
-
 ### Bug Fixes
 
 * position of prompt icon is incorrect in paragraph on mobile ([5df953f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5df953f6c877e2aa3f1f4981c97a0b8007abe6d4))
 
 ## [5.5.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.5.0...v5.5.1) (2023-01-29)
-
 
 ### Bug Fixes
 
@@ -103,14 +305,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.5.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.4.0...v5.5.0) (2023-01-29)
 
-
 ### Features
 
 * **i18n:** add Arabic translation ([#857](https://github.com/cotes2020/jekyll-theme-chirpy/issues/857)) ([765af53](https://github.com/cotes2020/jekyll-theme-chirpy/commit/765af53b77e5c63804784d5728f5970ae274c2c7))
 * **i18n:** add Czech language ([#833](https://github.com/cotes2020/jekyll-theme-chirpy/issues/833)) ([98d48f5](https://github.com/cotes2020/jekyll-theme-chirpy/commit/98d48f5da412276d4a0c99cd01a87b19349bc6bc))
 * **i18n:** add Finnish translations ([#843](https://github.com/cotes2020/jekyll-theme-chirpy/issues/843)) ([d6d0318](https://github.com/cotes2020/jekyll-theme-chirpy/commit/d6d03183eaf94b44e037cc48b6e1c47cee183f6e))
 * **i18n:** add Italian translation ([#850](https://github.com/cotes2020/jekyll-theme-chirpy/issues/850)) ([9a011e1](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9a011e14d66195d8b2fb9ec62f3e60a3e56cd032))
-
 
 ### Bug Fixes
 
@@ -121,7 +321,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.4.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.3.2...v5.4.0) (2022-12-27)
 
-
 ### Features
 
 * add `rel="me"` to Mastodon sidebar contact links for verification ([#807](https://github.com/cotes2020/jekyll-theme-chirpy/issues/807)) ([d2190c7](https://github.com/cotes2020/jekyll-theme-chirpy/commit/d2190c726f61c8c9732b88b4aecf699dc8bc7deb))
@@ -131,7 +330,6 @@ All notable changes to this project will be documented in this file. See [standa
 * support dark and light mode images ([#481](https://github.com/cotes2020/jekyll-theme-chirpy/issues/481)) ([9306c7b](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9306c7b39ecf9d9146bc1a25eebedc38eb2c3dd6))
 * support LQIP for images ([bffaf63](https://github.com/cotes2020/jekyll-theme-chirpy/commit/bffaf6374f265cec96ef743d42b46fbec3b59797))
 
-
 ### Bug Fixes
 
 * `hreflang` tag attribute of feed misses `site.alt_lang` ([7651d28](https://github.com/cotes2020/jekyll-theme-chirpy/commit/7651d2851b4bb7d8f0d068b62c036c89a1089bbc))
@@ -139,13 +337,11 @@ All notable changes to this project will be documented in this file. See [standa
 * refactoring error when the image URL contains parameters ([ec98f07](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ec98f07aca0b80a9c07fbcdc8e0d7d66dba98ed2))
 * spaces in post title are encoded when sharing ([7efd2f8](https://github.com/cotes2020/jekyll-theme-chirpy/commit/7efd2f8aa2ea1c3aeb7d740bf9a018881c26fe65))
 
-
 ### Improvements
 
 * **cdn:** optimize cache policy for static assets ([7fb0ee0](https://github.com/cotes2020/jekyll-theme-chirpy/commit/7fb0ee0bedb63eee3f90a49c6d7fb8b5d78c9830))
 
 ## [5.3.2](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.3.1...v5.3.2) (2022-11-22)
-
 
 ### Bug Fixes
 
@@ -156,13 +352,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.3.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.3.0...v5.3.1) (2022-10-25)
 
-
 ### Bug Fixes
 
 * 404 page missing title in tablet/desktop view ([5511b28](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5511b2883fd5a395fddfb642588d00c122f18da7))
 * prompt content overflows horizontally ([#705](https://github.com/cotes2020/jekyll-theme-chirpy/issues/705)) ([fb13e32](https://github.com/cotes2020/jekyll-theme-chirpy/commit/fb13e3219b5eca0d2e4f86a1ecabfab75240369f))
 * **tools:** multiple configuration files will fail the test ([80cb0b3](https://github.com/cotes2020/jekyll-theme-chirpy/commit/80cb0b371754e96772a7907877a8ce196398ba3d))
-
 
 ### Improvements
 
@@ -181,7 +375,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.3.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.2.1...v5.3.0) (2022-09-23)
 
-
 ### Features
 
 * add multiple authors to a post ([#677](https://github.com/cotes2020/jekyll-theme-chirpy/issues/677)) ([f1d9e99](https://github.com/cotes2020/jekyll-theme-chirpy/commit/f1d9e99bc02d3cd0a6b0cd1beac545f0cc7a24f8)), closes [#675](https://github.com/cotes2020/jekyll-theme-chirpy/issues/675)
@@ -189,7 +382,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **i18n:** add German locale file ([#663](https://github.com/cotes2020/jekyll-theme-chirpy/issues/663)) ([940b281](https://github.com/cotes2020/jekyll-theme-chirpy/commit/940b2810e95065e30600ae8d5e4612e7183da60e))
 * **i18n:** add Hungarian locale file ([#597](https://github.com/cotes2020/jekyll-theme-chirpy/issues/597), [#598](https://github.com/cotes2020/jekyll-theme-chirpy/issues/598)) ([b032977](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b0329775fc24d0323e5cc04cda46ece8b4531802))
 * **i18n:** add Turkish language ([#631](https://github.com/cotes2020/jekyll-theme-chirpy/issues/631)) ([ad137fa](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ad137fa2945b1870b9c1dd5e9212a5f4af7c3580))
-
 
 ### Bug Fixes
 
@@ -201,14 +393,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.2.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.2.0...v5.2.1) (2022-06-17)
 
-
 ### Bug Fixes
 
 * exclude CHANGELOG from output ([971fe03](https://github.com/cotes2020/jekyll-theme-chirpy/commit/971fe03ec329ae49e7d60fe3af6101cfbd1acd6c))
 * **PWA:** sometimes update notification is not triggered ([96af729](https://github.com/cotes2020/jekyll-theme-chirpy/commit/96af7291ea5b2c5ed6372e7b6f7725e67c69f1ba))
 
 ## [5.2.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.1.0...v5.2.0) (2022-06-09)
-
 
 ### Features
 
@@ -219,7 +409,6 @@ All notable changes to this project will be documented in this file. See [standa
 * add option to turn off PWA ([#527](https://github.com/cotes2020/jekyll-theme-chirpy/issues/527)) ([106c981](https://github.com/cotes2020/jekyll-theme-chirpy/commit/106c981bac71e7434204a77e1f0c9c61d6eb1509))
 * **PWA:** add Service Worker update notification ([d127183](https://github.com/cotes2020/jekyll-theme-chirpy/commit/d127183b9774f6321e409acdb66bf8a85d8814be))
 * support showing description of preview image ([2bd6efa](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2bd6efa95a174ac44e30a3af1e57e6f40d6e0e3a))
-
 
 ### Bug Fixes
 
@@ -239,7 +428,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **theme mode:** `SCSS` syntax error ([#588](https://github.com/cotes2020/jekyll-theme-chirpy/issues/588)) ([76a1b6a](https://github.com/cotes2020/jekyll-theme-chirpy/commit/76a1b6a068c369138422dcd18ba08ec8cc3749a6))
 * use `jsonify` to generate valid json ([#521](https://github.com/cotes2020/jekyll-theme-chirpy/issues/521)) ([dd9d5a7](https://github.com/cotes2020/jekyll-theme-chirpy/commit/dd9d5a7207b746342d07176d8969dc4f2c380bf2))
 * when the `site.img_cdn` is set to the local path, the preview-image path loses the `baseurl` ([9cefe58](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9cefe58993d9ea3a3a28424e7ffd8e0911567c5c))
-
 
 ### Improvements
 
