@@ -8,7 +8,7 @@ tags: [audio_and_video,ffmpeg,AVCodecContext]
 ![Desktop View](assets/img/ffmpeg.png)
 AVCodecContext 是 ffmpeg 编解码器。
 
-#### AVCodecContext
+## AVCodecContext
 
 ```c
 typedef struct AVCodecContext {

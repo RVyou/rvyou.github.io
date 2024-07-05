@@ -9,7 +9,7 @@ tags: [audio_and_video,ffmpeg,AVPacket]
 
 AVPacket 是 ffmpeg 存储的是经过编码的压缩数据。
 
-#### AVPacket
+## AVPacket
 携带一个NAL视频单元，或者多个NAL音频单元。 AVPacket保存一个NAL单元的解码前数据，
 该结构本身不直接包含数据，其有一个指向数据域的指针。
 传递给avcodec_send_packet函数的AVPacket结构体data中的数据前面是00 00 00 01开头,是NALU格式的数据

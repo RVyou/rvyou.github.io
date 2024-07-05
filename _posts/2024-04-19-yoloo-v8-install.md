@@ -6,9 +6,8 @@ categories: [yolo]
 tags: [yolo]
 ---
 
-#### 
 
-#### 安装相关依赖
+## 安装相关依赖
 
 > 这里安装一些依赖 [Windows 11 和 WSL2 安装 CUDA cuDNN OpenCV | rvyou](/posts/CUDA-cuDNN-OpenCV/)   
 > 还有 python3.10
@@ -24,7 +23,7 @@ pip install labelimg
 
 接下来就是用 yolo 相关命令[CLI - Ultralytics YOLO Docs](https://docs.ultralytics.com/usage/cli/#predict) 进行
 
-#### 训练自己数据集合
+## 训练自己数据集合
 
 目录：
 
@@ -52,10 +51,10 @@ tips: 记得选生产是 yolo 的标注数据
 ├─test
 │  ├─images
 │  └─labels
-├─train   #训练数据
+├─train   #训练数据 70%
 │  ├─images
 │  └─labels
-└─valid  #验证数据
+└─valid  #验证数据 30%
     ├─images
     └─labels
 ```
@@ -78,9 +77,9 @@ names:                                        #每个类对应的名称
 nc: 80 #改成自己的标签数量
 ```
 
-#### 使用 yolo
+## 使用 yolo
 
-###### 训练：
+#### 训练：
 
 ```shell
 yolo task=detect mode=train model=yolov8n.yaml data=traffic.yaml epochs=10 batch=3
@@ -100,15 +99,14 @@ yolo task=detect mode=train model=yolov8n.yaml data=traffic.yaml epochs=10 batch
 
 一般使用 batch =1 进行递增训练正价准确度(有一定阈值)，相应epochs也要调大
 
-###### 验证:
+#### 验证:
 
 ```shell
 yolo task=detect mode=val model=runs/detect/train/weights/last.pt data=traffic.yaml batch=8
 ```
 
-###### 
 
-###### 测试：
+#### 测试：
 
 ```shell
 yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source=2.jpg
