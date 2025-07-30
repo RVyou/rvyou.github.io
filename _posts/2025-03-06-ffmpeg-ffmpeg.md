@@ -7,7 +7,7 @@ tags: [audio_and_video,FFmpeg]
 ---
 
 这里是 main 函数流程,删了一些代码
->> //******  这个开头的注释添加说明
+> //******  这个开头的注释添加说明
 
 ## Reference
 
