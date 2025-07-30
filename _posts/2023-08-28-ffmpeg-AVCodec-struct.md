@@ -1,12 +1,12 @@
 ---
-title: ffmpeg 6.0 中 AVCodec 结构体
+title: FFmpeg 6.0 中 AVCodec 结构体
 author: rvyou
 date: 2023-08-22 20:25:30
-categories: [audio_and_video,ffmpeg,AVCodec]
-tags: [audio_and_video,ffmpeg,AVCodec]
+categories: [audio_and_video,FFmpeg,AVCodec]
+tags: [audio_and_video,FFmpeg,AVCodec]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
-AVCodec 是 ffmpeg 存储编解码器信息。
+AVCodec 是 FFmpeg 存储编解码器信息。
 
 ## AVCodec
 

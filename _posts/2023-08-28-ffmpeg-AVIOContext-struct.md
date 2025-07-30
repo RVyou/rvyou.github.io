@@ -1,12 +1,12 @@
 ---
-title: ffmpeg 6.0 中 AVIOContext 结构体
+title: FFmpeg 6.0 中 AVIOContext 结构体
 author: rvyou
 date: 2023-08-22 20:25:30
-categories: [audio_and_video,ffmpeg,AVIOContext]
-tags: [audio_and_video,ffmpeg,AVIOContext]
+categories: [audio_and_video,FFmpeg,AVIOContext]
+tags: [audio_and_video,FFmpeg,AVIOContext]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
-AVIOContext 是 ffmpeg 管理输入输出数据。
+AVIOContext 是 FFmpeg 管理输入输出数据。
 
 ## AVIOContext
 

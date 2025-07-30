@@ -1,13 +1,13 @@
 ---
-title: ffmpeg 6.0 中 AVPacket 结构体
+title: FFmpeg 6.0 中 AVPacket 结构体
 author: rvyou
 date: 2023-08-22 20:25:30
-categories: [audio_and_video,ffmpeg,AVPacket]
-tags: [audio_and_video,ffmpeg,AVPacket]
+categories: [audio_and_video,FFmpeg,AVPacket]
+tags: [audio_and_video,FFmpeg,AVPacket]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
 
-AVPacket 是 ffmpeg 存储的是经过编码的压缩数据。
+AVPacket 是 FFmpeg 存储的是经过编码的压缩数据。
 
 ## AVPacket
 携带一个NAL视频单元，或者多个NAL音频单元。 AVPacket保存一个NAL单元的解码前数据，
