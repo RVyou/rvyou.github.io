@@ -29,9 +29,12 @@ ps: c c++ windows
 ```
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1
 CUDA_PATH_V12_1 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1
+path 添加运行bin 的路径
+nvcc --version 
+nvidia-smi
 ```
 
-### 下载 zlibwapi.dll
+### 下载 zlibwapi.dll（这个不是必须）
 
 [Installation Guide NVIDIA Docs](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-zlib-windows)
 

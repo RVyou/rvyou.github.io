@@ -1,12 +1,12 @@
 ---
-title: ffmpeg 6.0 中 AVFormatContext 结构体
+title: FFmpeg 6.0 中 AVFormatContext 结构体
 author: rvyou
 date: 2023-08-22 19:52:30
-categories: [audio_and_video,ffmpeg,AVFormatContext]
-tags: [audio_and_video,ffmpeg,AVFormatContext]
+categories: [audio_and_video,FFmpeg,AVFormatContext]
+tags: [audio_and_video,FFmpeg,AVFormatContext]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
-AVFormatContext 是 ffmpeg 比较核心的结构，贯彻处理核心内容，毕竟是上下文。
+AVFormatContext 是 FFmpeg 比较核心的结构，贯彻处理核心内容，毕竟是上下文。
 
 ## AVFormatContext
 
@@ -68,7 +68,7 @@ typedef struct AVFormatContext {
     unsigned int correct_ts_overflow;       // 纠正单个时间戳溢出
     int seek2any;                           //强制查找任何（也包括非关键帧）帧
     int flush_packets;                      //在每个数据包之后刷新 I/O 上下文 编码
-    int probe_score;                        //格式探测得分
+    int probe_score;                        //格式探测得分 0-100
     int format_probesize;                   //从输入中读取的最大字节数，以便识别 ref AVInputFormat "输入格式"。仅在格式未被调用者明确设置时使用
     char *codec_whitelist;                  //以','分隔的允许解码器列表
     char *format_whitelist;                 //以','分隔的允许使用的解码器列表

@@ -1,12 +1,12 @@
 ---
-title: ffmpeg 6.0 中 AVFrame 结构体
+title: FFmpeg 6.0 中 AVFrame 结构体
 author: rvyou
 date: 2023-08-22 20:15:30
-categories: [audio_and_video,ffmpeg,AVFrame]
-tags: [audio_and_video,ffmpeg,AVFrame]
+categories: [audio_and_video,FFmpeg,AVFrame]
+tags: [audio_and_video,FFmpeg,AVFrame]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
-AVFrame 是 ffmpeg 存储原始数据。
+AVFrame 是 FFmpeg 存储原始数据。
 
 ## AVFrame
 

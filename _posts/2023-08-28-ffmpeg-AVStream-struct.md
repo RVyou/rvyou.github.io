@@ -1,9 +1,9 @@
 ---
-title: ffmpeg 6.0 中 AVStream 结构体
+title: FFmpeg 6.0 中 AVStream 结构体
 author: rvyou
 date: 2023-08-22 20:25:30
-categories: [audio_and_video,ffmpeg,AVStream]
-tags: [audio_and_video,ffmpeg,AVStream]
+categories: [audio_and_video,FFmpeg,AVStream]
+tags: [audio_and_video,FFmpeg,AVStream]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
 AVStream 是 ffmpeg 用于描述多媒体流。

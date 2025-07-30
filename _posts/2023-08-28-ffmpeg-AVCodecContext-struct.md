@@ -1,12 +1,12 @@
 ---
-title: ffmpeg 6.0 中 AVCodecContext 结构体
+title: FFmpeg 6.0 中 AVCodecContext 结构体
 author: rvyou
 date: 2023-08-22 19:52:30
-categories: [audio_and_video,ffmpeg,AVCodecContext]
-tags: [audio_and_video,ffmpeg,AVCodecContext]
+categories: [audio_and_video,FFmpeg,AVCodecContext]
+tags: [audio_and_video,FFmpeg,AVCodecContext]
 ---
 ![Desktop View](assets/img/ffmpeg.png)
-AVCodecContext 是 ffmpeg 编解码器。
+AVCodecContext 是 FFmpeg 编解码器。
 
 ## AVCodecContext
 
